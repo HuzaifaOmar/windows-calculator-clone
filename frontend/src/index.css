@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
 }
 :root {
@@ -25,8 +25,9 @@
 .calculator-display {
   background-color: var(--display-background);
   width: min(85vw, 63vh);
+  aspect-ratio: 4.4/1;
   border: none;
-  padding: 20px;
+  padding: 10px;
   text-align: right;
   font-size: 32px;
   font-weight: 700;
@@ -34,13 +35,24 @@
   word-wrap: break-word;
   white-space: normal;
 }
-
+.calculator-error-display {
+  background-color: var(--display-background);
+  width: min(85vw, 63vh);
+  border: none;
+  padding: 0 14px;
+  text-align: right;
+  color: hsl(0, 0%, 20%);
+  font-size: 24px;
+  font-weight: 500;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  white-space: normal;
+}
 .calculator-container {
   background-color: var(--display-background);
   width: min(85vw, 63vh);
   box-shadow: 0 5px 6px rgba(0, 0, 0, 0.3);
 }
-
 
 a {
   font-weight: 500;

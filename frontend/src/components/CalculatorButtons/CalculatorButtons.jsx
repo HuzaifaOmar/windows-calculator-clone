@@ -7,8 +7,8 @@ const CalculatorButtons = ({
   onOperatorClick,
   onClearClick,
   onEqualsClick,
+  onBackspaceClick,
 }) => {
-  
   const renderOperatorButton = (operator) => (
     <button
       key={operator}
@@ -29,7 +29,11 @@ const CalculatorButtons = ({
       >
         CLEAR
       </button>
-      {renderOperatorButton("⌫")}
+      {
+        <button onClick={onBackspaceClick} className={styles["op-button"]}>
+          ⌫
+        </button>
+      }
       {renderOperatorButton("1/x")}
       {renderOperatorButton("x^2")}
       {renderOperatorButton("√")}
