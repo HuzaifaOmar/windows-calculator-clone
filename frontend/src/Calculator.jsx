@@ -11,7 +11,7 @@ const Calculator = () => {
 
   const handleEqualsClick = async () => {
     try {
-      const response = await fetch(`${API_URL}/evaluate`, {
+      const response = await fetch(`${API_URL}/calculate`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

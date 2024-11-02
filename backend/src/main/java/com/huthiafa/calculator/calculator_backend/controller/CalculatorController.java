@@ -8,7 +8,7 @@ import com.huthiafa.calculator.calculator_backend.service.CalculatorService;
 @CrossOrigin(origins = "*")
 public class CalculatorController {
 
-    @PostMapping("/evaluate")
+    @PostMapping("/calculate")
     public String evaluateExpression(@RequestBody CalculationRequest request) throws Exception {
         return new CalculatorService().evaluateExpression(request.getExpressionStr());
     }
