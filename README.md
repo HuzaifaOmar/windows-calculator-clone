@@ -25,13 +25,17 @@ A web-based calculator inspired by the Microsoft Calculator, built with **React*
 
 ## Screenshots
 
-![Calculator Layout](./readme-images/calculator-layout.png)
-![Sample Input](./readme-images/sample-input.png)
-![Sample Output](./readme-images/sample-result.png)
-![Division By Zero Error Message](./readme-images/division-by-zero-error-message.png)
-![Arithmetic Error Message](./readme-images/arithmetic-error-message.png)
-![Syntax Error Message](./readme-images/syntax-error-message.png)
-![Invalid Input Handling](./readme-images/invalid-input-handling.png)
+<div style="display: flex; flex-wrap: wrap;">
+    <img src="./readme-images/calculator-layout.png" style="width: 25%; margin: 10px;" />
+    <img src="./readme-images/sample-input.png" style="width: 25%; margin: 10px;" />
+    <img src="./readme-images/sample-result.png" style="width: 25%; margin: 10px;" />
+    <img src="./readme-images/division-by-zero-error-message.png" style="width: 25%; margin: 10px;" />
+</div>
+<div style="display: flex; flex-wrap: wrap;">
+    <img src="./readme-images/arithmetic-error-message.png" style="width: 25%; margin: 10px;" />
+    <img src="./readme-images/syntax-error-message.png" style="width: 25%; margin: 10px;" />
+    <img src="./readme-images/invalid-input-handling.png" style="width: 25%; margin: 10px;" />
+</div>
 
 ## Getting Started
 
