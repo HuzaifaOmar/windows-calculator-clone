@@ -29,12 +29,12 @@ A web-based calculator inspired by the Microsoft Calculator, built with **React*
     <img src="./readme-images/calculator-layout.png" style="width: 25%; margin: 10px;" />
     <img src="./readme-images/sample-input.png" style="width: 25%; margin: 10px;" />
     <img src="./readme-images/sample-result.png" style="width: 25%; margin: 10px;" />
-    <img src="./readme-images/division-by-zero-error-message.png" style="width: 25%; margin: 10px;" />
 </div>
 <div style="display: flex; flex-wrap: wrap;">
     <img src="./readme-images/arithmetic-error-message.png" style="width: 25%; margin: 10px;" />
     <img src="./readme-images/syntax-error-message.png" style="width: 25%; margin: 10px;" />
     <img src="./readme-images/invalid-input-handling.png" style="width: 25%; margin: 10px;" />
+    <img src="./readme-images/division-by-zero-error-message.png" style="width: 25%; margin: 10px;" />
 </div>
 
 ## Getting Started
